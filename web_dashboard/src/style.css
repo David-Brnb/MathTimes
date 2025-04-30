@@ -1,0 +1,121 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-color: #5FF4FF;
+  height: auto;
+}
+
+.background1 {
+  background-image: url('/fondo.svg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%; 
+  width: 100%;
+  margin: 0; 
+}
+
+
+.background2 {
+  background-image: url('/fondo2.svg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%; 
+  width: 100%;
+  margin: 0; 
+}
+
+.background3 {
+  background-image: url('/fondo3.svg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 100%; 
+  width: 100%;
+  margin: 0; 
+}
+.content {
+  max-width: 1280px; 
+  margin: 0 auto; 
+  padding: 2rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 0.5rem;
+  background-image: url('/label.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  padding-bottom: 1.5rem;
+}
+
+.input {
+  background-image: url('/input.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 4%;
+  color: #3D3B52;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.button {
+  background-image: url('/button.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 1rem;
+  cursor: pointer;
+  color: #3D3B52;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif ;
+  font-weight: bold;
+}
+
+.button:hover {
+  transform: scale(1.1); 
+}
+
+
+.cuadro_verde {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  background-image: url('/cuadro_verde.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 45%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+
+.cuadro_azul {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  text-align: center;
+  padding: 1rem;
+  background-image: url('/cuadro.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}

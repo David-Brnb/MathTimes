@@ -1,0 +1,26 @@
+services:
+  backend:
+    image: dafget/team6-web-backend
+    ports:
+     - "8000:8000"
+    volumes:
+     - game-volume:/BackEnd/db
+    networks:
+      - app-network  
+
+  frontend:
+    image: dafget/team6-web-frontend
+    ports:
+      - "3000:3000"              
+    depends_on:
+      - backend   
+    networks:
+      - app-network        
+        
+
+networks:
+  app-network:
+    driver: bridge         
+
+volumes:
+  game-volume: 
