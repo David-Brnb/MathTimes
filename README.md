@@ -105,14 +105,6 @@ Open that URL in your browser.
 ```
 ---
 
-## Roadmap
-
-* Multiplayer cooperative challenges
-* Additional statistics: per‑skill heat‑maps
-* Internationalisation (ES → EN)
-
----
-
 ## Contributing
 
 Pull requests are welcome. Please open an issue first to discuss major changes and follow the coding standards described in the **CONTRIBUTING.md** (IEEE 1016 style & 80 % doc coverage).
