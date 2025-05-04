@@ -124,7 +124,8 @@ Commercial use requires prior written permission from **Team Impala**.
 * Ana Keila Martínez Moreno – A01666624
 * Iker Mejía Hernández – A01352358
 * Alan Enrique Riou González – A01664842
-  Feel free to reach out via the e‑mails listed in the project documentation.
+
+Feel free to reach out via the e‑mails listed in the project documentation.
 
 ---
 
